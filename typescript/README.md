@@ -30,3 +30,16 @@ stringAnalysis("Hello, world!")
 }
 */
 ```
+
+### 1.b - Création de Users via POO
+`Programmation Orientée Objet | POO` -> `src/CreatingUsers/index.ts`
+> Écrire une classe `User` en TypeScript qui permet de créer des utilisateurs avec les informations suivantes :
+
+- Nom complet
+- Adresse email
+- Mot de passe
+
+> La classe doit également fournir :
+
+- Une méthode pour vérifier si un mot de passe donné correspond au mot de passe de l'utilisateur.
+- Une méthode privée pour chiffrer le mot de passe avec Bcrypt lors de la création du User
